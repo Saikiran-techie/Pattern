@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Page</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+
+    <center>
+    <h1>Full Stack Development Registration</h1>
+
+    <table>
+      <tr>
+        <td> <label for="">Full Name: <sup style="color: red">*</sup> </label> </td>
+        <td> <input type="text" name="Name" value="" placeholder="Enter Your Full Name" required pattern="^[A-Za-z ]{3,25}$"> <br><br> </td>
+      </tr>
+      <tr>
+        <td> <label for="">Email: <sup style="color: red">*</sup> </label> </td>
+        <td> <input type="email" name="" value="" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <br><br> </td>
+      </tr>
+      <tr>
+        <td> <label for="">Password: <sup style="color: red">*</sup> </label> </td>
+        <td> <input type="password" name="" value="" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}"> <br><br> </td>
+      </tr>
+      <tr>
+        <td> <label for="">Mobile Number: <sup style="color: red">*</sup> </label> </td>
+        <td> <input type="number" name="" value="" placeholder="Mobile Number" required pattern="\d{10}"> <br><br> </td>
+      </tr>
+      <tr>
+        <td> <label for="">Course: <sup style="color: red">*</sup> </label> </td>
+        <td> <input type="text" name="" value="" placeholder="Course name" required pattern="^[A-Za-z ]{3,25}$"> <br><br> </td>
+      </tr>
+      </table>
+
+      <input type="submit" name="Submit" value="Register">
+
+    </center>
+
+    </form>
+  </body>
+</html>
